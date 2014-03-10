@@ -6,17 +6,17 @@ h2, h3, small {
 	margin: 0.2em;
 }
 
-#galerie div {
+#gallery div {
 	margin: 1em 0;
 }
 
-#galerie div img {
+#gallery div img {
 	vertical-align: top;
 	margin: 0;
 	padding: 0;
 }
 
-#galerie div span {
+#gallery div span {
 	height: 120px;
 	width: 130px;
 	display: inline-block;
@@ -27,22 +27,22 @@ h2, h3, small {
 	cursor: pointer;
 }
 
-#galerie div span:hover {
+#gallery div span:hover {
 	opacity: 1;
 }
 
-#galerie div span:first-of-type {
+#gallery div span:first-of-type {
 	background: url("prev.svg") no-repeat;
 	text-align: right;
 	background-position: top 50% right 0;
 }
 
-#galerie div span:last-of-type {
+#gallery div span:last-of-type {
 	background: url("next.svg") no-repeat;
 	background-position: top 50% left 0;
 }
 
 small:last-of-type {
 	font-size: 70%;
-	color: grey;
+	color: gray;
 }
